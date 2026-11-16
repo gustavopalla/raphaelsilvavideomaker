@@ -46,7 +46,7 @@ export default function Work() {
                 <Shot seed={c.seed} scope />
                 <span className="idx">{String(cards.indexOf(c) + 1).padStart(2, "0")}</span>
                 <span className="dur">{c.dur}</span>
-                <span className="ring">▶</span>
+                <span className="ring">{"▶\uFE0E"}</span>
                 <span className="vfc"><i /><i /><i /><i /></span>
               </div>
               <div className="meta">

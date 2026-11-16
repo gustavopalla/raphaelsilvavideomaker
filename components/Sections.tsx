@@ -73,7 +73,7 @@ export function Services() {
               <span className="n">{String(i + 1).padStart(2, "0")}</span>
               <h3>{s.t}</h3>
               <p>{s.p}</p>
-              <span className="go">↗</span>
+              <span className="go">{"↗\uFE0E"}</span>
             </li>
           ))}
         </ol>
@@ -106,7 +106,10 @@ export function Contact() {
           <div className="mail">
             <a className="big" href="mailto:contato@seudominio.com.br">contato@seudominio.com.br</a>
             <div className="soc">
-              <a href="#contato">Instagram</a><a href="#contato">Vimeo</a><a href="#contato">YouTube</a><a href="#contato">WhatsApp</a>
+              <a href="https://www.instagram.com/rapha.silvaa_/" target="_blank" rel="noopener noreferrer">Instagram</a>
+              <a href="#contato">Vimeo</a>
+              <a href="#contato">YouTube</a>
+              <a href="https://wa.me/5519978270270" target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </div>
           </div>
         </div>

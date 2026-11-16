@@ -25,7 +25,7 @@ export default function Viewfinder({ spec = "16:9 · 4K · 24" }: { spec?: strin
       <span className="af" />
       <span className="mic">MIC <u><s /><s /><s /><s /><s /></u></span>
       <span className="spec">{spec}</span>
-      <span className="play">▶ Showreel 26</span>
+      <span className="play">{"▶\uFE0E"} Showreel 26</span>
     </div>
   );
 }

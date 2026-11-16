@@ -62,7 +62,7 @@ export default function ReelsTrack({ reels }: { reels: Reel[] }) {
           <div key={r.seed} className="reel" {...play(r, () => moved.current > 6)}>
             <Shot seed={r.seed} />
             <span className="idx">{String(i + 1).padStart(2, "0")}</span>
-            <span className="ring">▶</span>
+            <span className="ring">{"▶\uFE0E"}</span>
             <div className="cap"><small>{r.cat}</small>{r.title}</div>
           </div>
         ))}
