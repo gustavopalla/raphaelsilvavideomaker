@@ -107,9 +107,7 @@ export function Contact() {
             <a className="big" href="mailto:contato@seudominio.com.br">contato@seudominio.com.br</a>
             <div className="soc">
               <a href="https://www.instagram.com/rapha.silvaa_/" target="_blank" rel="noopener noreferrer">Instagram</a>
-              <a href="#contato">Vimeo</a>
-              <a href="#contato">YouTube</a>
-              <a href="https://wa.me/5519978270270" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              <a href="https://wa.me/5519978270270">WhatsApp</a>
             </div>
           </div>
         </div>
